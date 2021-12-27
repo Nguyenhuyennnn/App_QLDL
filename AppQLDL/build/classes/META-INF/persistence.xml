@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="DoAn2PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>csdl.TblTinh</class>
+    <class>csdl.TblTour</class>
+    <class>csdl.TblDiadiem</class>
+    <class>csdl.TblHoadon</class>
+    <class>csdl.TblKhachsan</class>
+    <class>csdl.TblChitiettinhluong</class>
+    <class>csdl.TblChucvu</class>
+    <class>csdl.TblKhachhang</class>
+    <class>csdl.TblAdmin</class>
+    <class>csdl.TblNhanvien</class>
+    <class>csdl.TblDichvu</class>
+    <class>csdl.TblPhuongtien</class>
+    <class>csdl.TblDattour</class>
+    <class>csdl.TblChitietdiemdanh</class>
+    <class>csdl.TblPhongkhachsan</class>
+    <class>csdl.TblPhongtochuc</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/qldl?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
